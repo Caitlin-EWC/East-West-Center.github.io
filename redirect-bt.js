@@ -1,0 +1,1 @@
+window.location.href="https://https://East-West-Center.github.io/ biden-trump-tweets/"
