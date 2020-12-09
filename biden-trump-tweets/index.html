@@ -82,7 +82,7 @@
             opacity: 0.8;
             position: relative;
             left: 140px;
-            bottom: 40px;
+            bottom: 30px;
             font-weight: 600;
         }
 
@@ -90,7 +90,7 @@
             background-color: rgba(217, 42, 42, 0.8);
             position: relative;
             left: 170px;
-            bottom: 40px;
+            bottom: 30px;
             font-weight: 600;
         }
 
@@ -109,7 +109,7 @@
             /* IE6-9 */
             position: relative;
             left: 200px;
-            bottom: 40px;
+            bottom: 30px;
             /* top: 96%;  */
             font-weight: 600;
         }
@@ -129,7 +129,7 @@
             /* IE6-9 */
             position: relative;
             left: 230px;
-            bottom: 40px;
+            bottom: 30px;
             font-weight: 600;
         }
 
@@ -242,7 +242,7 @@
         .home-icon {
             position: absolute;
             top: -10px;
-            left: 0px;
+            left: -10px;
             width: 30px;
             height: 27px;
             cursor: pointer;
@@ -417,7 +417,7 @@
                 .enter()
                 .append("circle")
                 .attr("cx", 5)
-                .attr("cy", function (d, i) { return 57 + i * 37 })
+                .attr("cy", function (d, i) { return 57 + i * 35 })
                 .attr("r", 5)
                 .style("fill", function (d) { return color2(d) })
 
@@ -426,7 +426,7 @@
                 .enter()
                 .append("text")
                 .attr("x", 15)
-                .attr("y", function (d, i) { return 62 + i * 37 })
+                .attr("y", function (d, i) { return 62 + i * 35 })
                 .style("fill", function (d) { return color2(d) })
                 .text(function (d) { return d })
                 .style("font-family", "Montserrat")
